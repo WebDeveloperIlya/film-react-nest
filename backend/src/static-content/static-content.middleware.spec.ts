@@ -1,4 +1,3 @@
-import { Test, TestingModule } from '@nestjs/testing';
 import { StaticContentMiddleware } from './static-content.middleware';
 
 describe('StaticContentMiddleware', () => {

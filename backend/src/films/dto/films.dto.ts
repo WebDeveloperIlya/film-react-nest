@@ -1,10 +1,4 @@
-import {
-  IsString,
-  IsArray,
-  IsNumber,
-  IsEmail,
-  IsMobilePhone,
-} from 'class-validator';
+import { IsString, IsArray, IsNumber } from 'class-validator';
 
 export class GetScheduleDTO {
   @IsString()
